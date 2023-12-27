@@ -20,10 +20,15 @@
 
     /* Set the width and height of each widget container */
     .tradingview-widget-container {
-      width: 600px; /* Adjust the width as needed */
+      width: calc(25% - 20px); /* 25% of the page width, minus margin */
       height: 500px; /* Adjust the height as needed */
       margin: 10px;
       float: left; /* Float left to create a grid */
+    }
+
+    /* Remove the border around the widget */
+    .tradingview-widget-container__widget {
+      border: none;
     }
 
     /* Clear the float to ensure the next row starts below the widgets */
@@ -40,18 +45,17 @@
   <!-- TradingView Widget BEGIN -->
   <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
       {
         "symbols": [
           ["BMFBOVESPA:VALE3|1M"]
         ],
         "chartOnly": false,
-        "width": "600",
+        "width": "100%",
         "height": "500",
         "locale": "br",
         "colorTheme": "dark",
-        "autosize": false,
+        "autosize": true,
         "showVolume": false,
         "showMA": false,
         "hideDateRanges": false,
@@ -88,18 +92,17 @@
   <!-- TradingView Widget BEGIN -->
   <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
       {
         "symbols": [
           ["BMFBOVESPA:MGLU3|1M"]
         ],
         "chartOnly": false,
-        "width": "600",
+        "width": "100%",
         "height": "500",
         "locale": "br",
         "colorTheme": "dark",
-        "autosize": false,
+        "autosize": true,
         "showVolume": false,
         "showMA": false,
         "hideDateRanges": false,
@@ -136,18 +139,17 @@
   <!-- TradingView Widget BEGIN -->
   <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
       {
         "symbols": [
           ["BMFBOVESPA:WEGE3|1M"]
         ],
         "chartOnly": false,
-        "width": "600",
+        "width": "100%",
         "height": "500",
         "locale": "br",
         "colorTheme": "dark",
-        "autosize": false,
+        "autosize": true,
         "showVolume": false,
         "showMA": false,
         "hideDateRanges": false,
@@ -184,18 +186,17 @@
   <!-- TradingView Widget BEGIN -->
   <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
       {
         "symbols": [
           ["BMFBOVESPA:BRKM5|1M"]
         ],
         "chartOnly": false,
-        "width": "600",
+        "width": "100%",
         "height": "500",
         "locale": "br",
         "colorTheme": "dark",
-        "autosize": false,
+        "autosize": true,
         "showVolume": false,
         "showMA": false,
         "hideDateRanges": false,
@@ -235,18 +236,17 @@
   <!-- TradingView Widget BEGIN -->
   <div class="tradingview-widget-container">
     <div class="tradingview-widget-container__widget"></div>
-    <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Monitore todos os mercados no TradingView</span></a></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
       {
         "symbols": [
           ["BMFBOVESPA:ABEV3|1M"]
         ],
         "chartOnly": false,
-        "width": "600",
+        "width": "100%",
         "height": "500",
         "locale": "br",
         "colorTheme": "dark",
-        "autosize": false,
+        "autosize": true,
         "showVolume": false,
         "showMA": false,
         "hideDateRanges": false,
